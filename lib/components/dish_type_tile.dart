@@ -21,7 +21,7 @@ class DishTypeTile extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        margin: const EdgeInsets.only(left: 10),
+        margin: const EdgeInsets.only(right: 10),
         decoration: BoxDecoration(
           color: index == selectedIndex
               ? secondColor

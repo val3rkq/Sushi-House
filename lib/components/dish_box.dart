@@ -8,6 +8,7 @@ class DishBox extends StatelessWidget {
   const DishBox({
     super.key,
     required this.index,
+    required this.lastIndex,
     required this.name,
     required this.type,
     required this.price,
@@ -20,6 +21,7 @@ class DishBox extends StatelessWidget {
   final String name;
   final String type;
   final int index;
+  final int lastIndex;
   final double price;
   final double grade;
   final bool isLiked;
@@ -37,7 +39,7 @@ class DishBox extends StatelessWidget {
         ),
         width: 220,
         padding: const EdgeInsets.all(20),
-        margin: const EdgeInsets.only(left: 15),
+        margin: EdgeInsets.only(left: 15, right: lastIndex == index ? 15 : 0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,

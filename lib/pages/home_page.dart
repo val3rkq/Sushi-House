@@ -112,8 +112,8 @@ class _HomePageState extends State<HomePage> {
                 // types of dishes
                 Container(
                   height: 50,
-                  alignment: Alignment.center,
-                  margin: const EdgeInsets.only(right: 10),
+                  alignment: Alignment.centerLeft,
+                  margin: const EdgeInsets.only(left: 15),
                   child: ListView.builder(
                     shrinkWrap: true,
                     scrollDirection: Axis.horizontal,
@@ -146,7 +146,6 @@ class _HomePageState extends State<HomePage> {
                 Container(
                   height: 250,
                   alignment: Alignment.topLeft,
-                  padding: const EdgeInsets.only(left: 5, right: 20),
                   child: ListView.builder(
                     controller: _scrollController,
                     scrollDirection: Axis.horizontal,
@@ -166,6 +165,11 @@ class _HomePageState extends State<HomePage> {
 
                       return DishBox(
                         index: index,
+                        lastIndex: db
+                                .typesOfDishes[db.typesOfDishes.keys
+                                    .toList()[selectedTypeIndex]]
+                                .length -
+                            1,
                         name: name,
                         type: type,
                         grade: grade,
