@@ -1,5 +1,5 @@
 # Sushi House (Japanese Restaurant Demo App)
-The Sushi House Demo App is a delightful and convenient way to explore and order delicious sushi from the comfort of your mobile device. Built using the Flutter framework, this app provides an intuitive user experience for browsing a wide variety of sushi options and placing orders seamlessly.
+The Sushi House Demo App is a delightful and convenient way to explore and order delicious sushi from the comfort of your mobile device. Built using the Flutter framework, this app provides an intuitive user experience for browsing a wide variety of sushi options and placing orders seamlessly. This app also has Hive Datebase.
 
 ## Features
 - Browse a diverse menu of sushi offerings.
