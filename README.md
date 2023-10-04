@@ -8,10 +8,6 @@ The Sushi House Demo App is a delightful and convenient way to explore and order
 - Customize your sushi orders based on preferences.
 - Track history of your orders
 
-## Installation
-Since this application has not yet been uploaded to google play, you can install it by downloading this ZIP-file on your phone 
-Link on Google Drive: https://drive.google.com/drive/folders/1rWJSeDELIe4JQnqy7Hyr9Gs1Hj6rI8W6?usp=drive_link
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
