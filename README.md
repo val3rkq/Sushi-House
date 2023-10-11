@@ -16,7 +16,3 @@ A big thank you to all contributors who have helped shape this app.
 We appreciate the Flutter community for creating amazing tools and resources.
 
 ## Screenshots
-![Screenshot_20230827_212121](https://github.com/val3rkq/Sushi-House/assets/87361814/9866f308-de7c-48d8-970f-2428baeae81d)
-![Screenshot_20230827_212055](https://github.com/val3rkq/Sushi-House/assets/87361814/e8455f8c-bb76-45e9-b17e-27b49bb82dfe)
-![Screenshot_20230827_212003](https://github.com/val3rkq/Sushi-House/assets/87361814/4201dc1c-320c-4513-838f-6909a61bed67)
-![Screenshot_20230827_211809](https://github.com/val3rkq/Sushi-House/assets/87361814/d177c9dc-e58b-42a7-856b-7caa18eb6515)
